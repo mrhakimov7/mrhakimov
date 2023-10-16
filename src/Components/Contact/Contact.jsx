@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>
+    <div className='Contact'>
       <section class="section" id="contact">
         <div class="container text-center">
             <p class="section-subtitle">How can you communicate?</p>
@@ -21,10 +21,20 @@ function Contact() {
                     <div class="form-group col-sm-12 mt-3">
                         <input type="text" class="btn btn-outline-primary rounded" placeholder="submit" />                
                     </div>
-                </div>  
+                </div>
             </form>
         </div>
     </section>
+        <div className="bottom p-5 border-top">
+           <div className='d-flex justify-content-between'>
+           <p>
+             Copyright 2023  
+            </p>
+            <span>
+            designed by Hakimov Abdurazzoq
+            </span>
+           </div>
+        </div>
     </div>
   )
 }
