@@ -9,20 +9,23 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-nav{
+.navb{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    margin-bottom: 5px;
+    height: 80px;
     position: fixed;
+    width: 100%;
+    padding: 40px 100px;
+   
     h2{
         font-size: 35px;
         color: white;
         cursor: pointer;
+        
     }
     ul{
-   margin-left: 700px;
+   
     display: flex;
     list-style-type: none;
     li{
@@ -38,14 +41,25 @@ nav{
     }
 }
 .sticky{
-    background-color: rgb(0, 119, 255);
+    background-color: white;
     transition: 0.5s;
+    padding: 5px 50px;
+    h2{
+        color:  rgb(0, 119, 255);
+    }
+    ul{
+        li{
+            color:  rgb(0, 119, 255);
+        }
+    }
 }
 .aboutme{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 700px;
+
+    
 }
 .square{
     position: relative;
@@ -54,6 +68,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     span{
         position: absolute;
         inset: 0;
@@ -140,20 +155,24 @@ nav{
     color: rgb(239, 21, 21);
     transition: 0.3s;
     cursor: pointer;
+    transform: translateY(-5px);
   }
   svg:nth-child(2):hover{
     color: rgb(0, 162, 255);
     transition: 0.3s;
     cursor: pointer;
+    transform: translateY(-5px);
   }
   svg:nth-child(3):hover{
     color: rgb(21, 57, 239);
     transition: 0.3s;
     cursor: pointer;
+    transform: translateY(-5px);
   }
   svg:nth-child(4):hover{
     color: rgb(79, 76, 76);
     transition: 0.3s;
     cursor: pointer;
+    transform: translateY(-5px);
   }
 }

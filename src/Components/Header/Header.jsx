@@ -18,8 +18,7 @@ function Header() {
       }, []);
   return (
     <div className='Header'>
-        <div className="container">
-            <nav>
+          <nav className='navb'>
                 <h2>Portfolio</h2>
                 <div>
                     <ul>
@@ -30,6 +29,7 @@ function Header() {
                     </ul>
                 </div>
             </nav>
+        <div className="container">
             <div className="aboutme">
             <div className="square">
                 <span></span>
