@@ -60,6 +60,7 @@
     align-items: center;
     justify-content: center;
     height: 700px;
+    
 
     
 }
@@ -178,4 +179,27 @@
     cursor: pointer;
     transform: translateY(-5px);
   }
+}
+.menu{
+    position: relative;
+    display: none;
+}
+
+
+@media (max-width: 900px){
+    .menu{
+        position: absolute;
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    .navbar ul{
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        left: 100%;
+    }
+    .aboutme{
+        width: 400px;
+    }
 }
